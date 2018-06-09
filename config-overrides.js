@@ -1,11 +1,9 @@
 const { injectBabelPlugin, getLoader, loaderNameMatches, compose } = require('react-app-rewired');
 const paths = require('react-app-rewired/scripts/utils/paths');
+const rewireLess = require('react-app-rewire-less-modules');
 const rewireVendorSplitting = require('react-app-rewire-vendor-splitting');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
-const rewireLess = require('./react-app-rewire-less-modules');
-
-const cssRegex = /\.css$/;
 const cssModuleRegex = /\.module\.css$/;
 
 /* eslint no-param-reassign: [0] */
@@ -19,9 +17,9 @@ module.exports = function override(config, env) {
     config.entry = { main: paths.appIndexJs };
 
     // Change css module class names in production
+    // require react-scripts >= 2.0.0-next.b2fd8db8
     const cssModuleMatcher = (rule) => {
-      return String(rule.test) === String(cssRegex) &&
-        (!rule.exclude || String(rule.exclude) !== String(cssModuleRegex));
+      return String(rule.test) === String(cssModuleRegex);
     };
     const cssModuleRule = getLoader(config.module.rules, cssModuleMatcher);
     const cssLoader = cssModuleRule.loader.find(loader => loaderNameMatches(loader, 'css-loader'));
