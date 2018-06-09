@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bar renders active correctly 1`] = `
+<div
+  class="bar active"
+>
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+  >
+    <div>
+      <div
+        class="ant-progress-outer"
+      >
+        <div
+          class="ant-progress-inner"
+        >
+          <div
+            class="ant-progress-bg"
+            style="width:50%;height:32px"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="reading"
+    style="line-height:32px"
+  >
+    <span
+      class="percentage"
+    >
+      50%
+    </span>
+    <span
+      class="value"
+    >
+      (50)
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Bar renders correctly 1`] = `
+<div
+  class="bar"
+>
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+  >
+    <div>
+      <div
+        class="ant-progress-outer"
+      >
+        <div
+          class="ant-progress-inner"
+        >
+          <div
+            class="ant-progress-bg"
+            style="width:50%;height:32px"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="reading"
+    style="line-height:32px"
+  >
+    <span
+      class="percentage"
+    >
+      50%
+    </span>
+    <span
+      class="value"
+    >
+      (50)
+    </span>
+  </div>
+</div>
+`;

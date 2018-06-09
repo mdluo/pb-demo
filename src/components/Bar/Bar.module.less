@@ -1,0 +1,48 @@
+.bar {
+  margin-bottom: 15px;
+  position: relative;
+  outline: 0;
+  border-radius: 4px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  &:global(.active) {
+    box-shadow: 0 0 0 2px rgba(47, 84, 235, 0.2);
+  }
+
+  &:global(.full) {
+    :global(.ant-progress-bg) {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+
+  :global {
+    .ant-progress-bg,
+    .ant-progress-inner {
+      border-radius: 4px;
+    }
+
+    .ant-progress-bg {
+      background-color: #adc6ff;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .ant-progress-status-exception .ant-progress-bg {
+      background-color: #ffccc7;
+    }
+  }
+}
+
+.reading {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.value {
+  margin-left: 0.25em;
+  font-size: 90%;
+  color: #8c8c8c;
+}
