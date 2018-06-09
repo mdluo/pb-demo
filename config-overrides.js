@@ -9,9 +9,14 @@ const cssModuleRegex = /\.module\.css$/;
 /* eslint no-param-reassign: [0] */
 module.exports = function override(config, env) {
   config = injectBabelPlugin([
-    'import',
-    { libraryName: 'antd', style: true, libraryDirectory: 'es' },
+    'import', { libraryName: 'antd', style: true, libraryDirectory: 'es' },
   ], config);
+
+  if (env !== 'test') {
+    config = injectBabelPlugin([
+      'module-resolver', { root: ['./src'] },
+    ], config);
+  }
 
   if (env === 'production') {
     config.entry = { main: paths.appIndexJs };
