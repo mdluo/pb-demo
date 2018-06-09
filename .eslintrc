@@ -68,6 +68,10 @@
     }
   },
   "settings": {
-    "polyfills": ["fetch", "promises"]
+    "polyfills": ["fetch", "promises"],
+    "react": {
+       "pragma": "React",
+       "version": "16.3"
+     }
   }
 }
