@@ -10,7 +10,7 @@ script:
   - yarn build
 deploy:
   - provider: script
-    script: now build --public --token $NOW_TOKEN && now alias pb-demo --token $NOW_TOKEN
+    script: cp package.json build/ && cd build && now --public --token $NOW_TOKEN
     skip_cleanup: true
     on:
       master: true
