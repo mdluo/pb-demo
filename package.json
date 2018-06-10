@@ -1,5 +1,5 @@
 {
-  "name": "pb",
+  "name": "pb-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,8 +37,12 @@
     "start": "react-app-rewired start",
     "local": "node server/index.js",
     "build": "react-app-rewired build",
+    "now-build": "echo 'Built on Travis CI'",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
+  },
+  "now": {
+    "alias": "pb-demo"
   },
   "browserslist": {
     "development": [
