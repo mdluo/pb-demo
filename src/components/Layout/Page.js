@@ -20,7 +20,7 @@ class Page extends Component {
             className={styles.card}
             bordered={false}
             title="Progress Bar Demo"
-            extra={<Link href="https://github.com/mdluo/pb"><Icon type="link" /> GitHub</Link>}
+            extra={<Link href="https://github.com/mdluo/pb-demo"><Icon type="link" /> GitHub</Link>}
             loading={loading}
           >
             {children}

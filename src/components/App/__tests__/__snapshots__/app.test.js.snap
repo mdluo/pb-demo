@@ -25,7 +25,7 @@ exports[`App renders initial loading state 1`] = `
             class="ant-card-extra"
           >
             <a
-              href="https://github.com/mdluo/pb"
+              href="https://github.com/mdluo/pb-demo"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -249,7 +249,7 @@ exports[`App renders loaded state 1`] = `
                   className="card"
                   extra={
                     <Link
-                      href="https://github.com/mdluo/pb"
+                      href="https://github.com/mdluo/pb-demo"
                     >
                       <Icon
                         type="link"
@@ -278,10 +278,10 @@ exports[`App renders loaded state 1`] = `
                           className="ant-card-extra"
                         >
                           <Link
-                            href="https://github.com/mdluo/pb"
+                            href="https://github.com/mdluo/pb-demo"
                           >
                             <a
-                              href="https://github.com/mdluo/pb"
+                              href="https://github.com/mdluo/pb-demo"
                               rel="noopener noreferrer"
                               target="_blank"
                             >

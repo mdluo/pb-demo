@@ -25,7 +25,7 @@ exports[`Bar renders correctly 1`] = `
             class="ant-card-extra"
           >
             <a
-              href="https://github.com/mdluo/pb"
+              href="https://github.com/mdluo/pb-demo"
               rel="noopener noreferrer"
               target="_blank"
             >
