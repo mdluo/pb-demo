@@ -10,7 +10,7 @@ script:
   - yarn build
 deploy:
   - provider: script
-    script: now alias --token=$NOW_TOKEN $(now ./out --static --no-clipboard --token=$NOW_TOKEN --public) pb-demo
+    script: now alias --token=$NOW_TOKEN $(now ./build --static --no-clipboard --token=$NOW_TOKEN --public) pb-demo
     skip_cleanup: true
     on:
       master: true
