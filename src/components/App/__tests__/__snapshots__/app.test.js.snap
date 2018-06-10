@@ -1,0 +1,981 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders initial loading state 1`] = `
+<div
+  class="layout ant-layout"
+>
+  <div
+    class="ant-layout-content"
+  >
+    <div
+      class="ant-card card ant-card-loading"
+    >
+      <div
+        class="ant-card-head"
+      >
+        <div
+          class="ant-card-head-wrapper"
+        >
+          <div
+            class="ant-card-head-title"
+          >
+            Progress Bar Demo
+          </div>
+          <div
+            class="ant-card-extra"
+          >
+            <a
+              href="https://github.com/mdluo/pb"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i
+                class="anticon anticon-link"
+              />
+               GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card-body"
+      >
+        <div
+          class="ant-card-loading-content"
+        >
+          <div
+            class="ant-row"
+            style="margin-left:-4px;margin-right:-4px"
+          >
+            <div
+              class="ant-col-22"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row"
+            style="margin-left:-4px;margin-right:-4px"
+          >
+            <div
+              class="ant-col-8"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col-15"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row"
+            style="margin-left:-4px;margin-right:-4px"
+          >
+            <div
+              class="ant-col-6"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col-18"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row"
+            style="margin-left:-4px;margin-right:-4px"
+          >
+            <div
+              class="ant-col-13"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col-9"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row"
+            style="margin-left:-4px;margin-right:-4px"
+          >
+            <div
+              class="ant-col-4"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col-3"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col-16"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row"
+            style="margin-left:-4px;margin-right:-4px"
+          >
+            <div
+              class="ant-col-8"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col-6"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col-8"
+              style="padding-left:4px;padding-right:4px"
+            >
+              <div
+                class="ant-card-loading-block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-layout-footer"
+  >
+    <p>
+      Powered by 
+      <a
+        href="https://github.com/facebook/create-react-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        CRA
+      </a>
+      , 
+      <a
+        href="https://ant.design/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Antd
+      </a>
+       and more.
+    </p>
+    <p>
+      Made with 
+      <i
+        class="anticon anticon-heart heart"
+      />
+       by 
+      <a
+        href="https://github.com/mdluo"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        mdluo
+      </a>
+      .
+    </p>
+  </div>
+</div>
+`;
+
+exports[`App renders loaded state 1`] = `
+<App>
+  <Page
+    loading={false}
+  >
+    <Adapter
+      className="layout"
+    >
+      <BasicLayout
+        className="layout"
+        prefixCls="ant-layout"
+      >
+        <div
+          className="layout ant-layout"
+        >
+          <Adapter>
+            <Basic
+              prefixCls="ant-layout-content"
+            >
+              <div
+                className="ant-layout-content"
+              >
+                <Card
+                  bordered={false}
+                  className="card"
+                  extra={
+                    <Link
+                      href="https://github.com/mdluo/pb"
+                    >
+                      <Icon
+                        type="link"
+                      />
+                       GitHub
+                    </Link>
+                  }
+                  loading={false}
+                  title="Progress Bar Demo"
+                >
+                  <div
+                    className="ant-card card"
+                  >
+                    <div
+                      className="ant-card-head"
+                    >
+                      <div
+                        className="ant-card-head-wrapper"
+                      >
+                        <div
+                          className="ant-card-head-title"
+                        >
+                          Progress Bar Demo
+                        </div>
+                        <div
+                          className="ant-card-extra"
+                        >
+                          <Link
+                            href="https://github.com/mdluo/pb"
+                          >
+                            <a
+                              href="https://github.com/mdluo/pb"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              <Icon
+                                type="link"
+                              >
+                                <i
+                                  className="anticon anticon-link"
+                                />
+                              </Icon>
+                               GitHub
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ant-card-body"
+                      style={Object {}}
+                    >
+                      <p>
+                        Limit: 
+                        <b>
+                          120
+                        </b>
+                      </p>
+                      <div
+                        className="bars"
+                      >
+                        <Bar
+                          active={true}
+                          height={32}
+                          key="0"
+                          limit={120}
+                          value={30}
+                        >
+                          <div
+                            className="bar active"
+                          >
+                            <Progress
+                              percent={25}
+                              prefixCls="ant-progress"
+                              showInfo={false}
+                              size="default"
+                              status={null}
+                              strokeWidth={32}
+                              trailColor="#f3f3f3"
+                              type="line"
+                            >
+                              <div
+                                className="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+                              >
+                                <div>
+                                  <div
+                                    className="ant-progress-outer"
+                                  >
+                                    <div
+                                      className="ant-progress-inner"
+                                    >
+                                      <div
+                                        className="ant-progress-bg"
+                                        style={
+                                          Object {
+                                            "height": 32,
+                                            "width": "25%",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </Progress>
+                            <div
+                              className="reading"
+                              style={
+                                Object {
+                                  "lineHeight": "32px",
+                                }
+                              }
+                            >
+                              <span
+                                className="percentage"
+                              >
+                                25
+                                %
+                              </span>
+                              <span
+                                className="value"
+                              >
+                                (
+                                30
+                                )
+                              </span>
+                            </div>
+                          </div>
+                        </Bar>
+                        <Bar
+                          active={false}
+                          height={32}
+                          key="1"
+                          limit={120}
+                          value={60}
+                        >
+                          <div
+                            className="bar"
+                          >
+                            <Progress
+                              percent={50}
+                              prefixCls="ant-progress"
+                              showInfo={false}
+                              size="default"
+                              status={null}
+                              strokeWidth={32}
+                              trailColor="#f3f3f3"
+                              type="line"
+                            >
+                              <div
+                                className="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+                              >
+                                <div>
+                                  <div
+                                    className="ant-progress-outer"
+                                  >
+                                    <div
+                                      className="ant-progress-inner"
+                                    >
+                                      <div
+                                        className="ant-progress-bg"
+                                        style={
+                                          Object {
+                                            "height": 32,
+                                            "width": "50%",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </Progress>
+                            <div
+                              className="reading"
+                              style={
+                                Object {
+                                  "lineHeight": "32px",
+                                }
+                              }
+                            >
+                              <span
+                                className="percentage"
+                              >
+                                50
+                                %
+                              </span>
+                              <span
+                                className="value"
+                              >
+                                (
+                                60
+                                )
+                              </span>
+                            </div>
+                          </div>
+                        </Bar>
+                        <Bar
+                          active={false}
+                          height={32}
+                          key="2"
+                          limit={120}
+                          value={80}
+                        >
+                          <div
+                            className="bar"
+                          >
+                            <Progress
+                              percent={66}
+                              prefixCls="ant-progress"
+                              showInfo={false}
+                              size="default"
+                              status={null}
+                              strokeWidth={32}
+                              trailColor="#f3f3f3"
+                              type="line"
+                            >
+                              <div
+                                className="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+                              >
+                                <div>
+                                  <div
+                                    className="ant-progress-outer"
+                                  >
+                                    <div
+                                      className="ant-progress-inner"
+                                    >
+                                      <div
+                                        className="ant-progress-bg"
+                                        style={
+                                          Object {
+                                            "height": 32,
+                                            "width": "66%",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </Progress>
+                            <div
+                              className="reading"
+                              style={
+                                Object {
+                                  "lineHeight": "32px",
+                                }
+                              }
+                            >
+                              <span
+                                className="percentage"
+                              >
+                                66
+                                %
+                              </span>
+                              <span
+                                className="value"
+                              >
+                                (
+                                80
+                                )
+                              </span>
+                            </div>
+                          </div>
+                        </Bar>
+                      </div>
+                      <Row
+                        gutter={24}
+                      >
+                        <div
+                          className="ant-row"
+                          style={
+                            Object {
+                              "marginLeft": -12,
+                              "marginRight": -12,
+                            }
+                          }
+                        >
+                          <Col
+                            className="select"
+                            key=".0"
+                            sm={8}
+                            style={
+                              Object {
+                                "paddingLeft": 12,
+                                "paddingRight": 12,
+                              }
+                            }
+                            xs={24}
+                          >
+                            <div
+                              className="select ant-col-xs-24 ant-col-sm-8"
+                              style={
+                                Object {
+                                  "paddingLeft": 12,
+                                  "paddingRight": 12,
+                                }
+                              }
+                            >
+                              <Select
+                                choiceTransitionName="zoom"
+                                onChange={[Function]}
+                                prefixCls="ant-select"
+                                showSearch={false}
+                                style={
+                                  Object {
+                                    "width": "100%",
+                                  }
+                                }
+                                transitionName="slide-up"
+                                value={0}
+                              >
+                                <LocaleReceiver
+                                  componentName="Select"
+                                  defaultLocale={
+                                    Object {
+                                      "notFoundContent": "Not Found",
+                                    }
+                                  }
+                                >
+                                  <Select
+                                    allowClear={false}
+                                    autoClearSearchValue={true}
+                                    backfill={false}
+                                    choiceTransitionName="zoom"
+                                    className=""
+                                    combobox={false}
+                                    defaultActiveFirstOption={true}
+                                    defaultOpen={false}
+                                    dropdownMatchSelectWidth={true}
+                                    dropdownMenuStyle={Object {}}
+                                    dropdownStyle={Object {}}
+                                    labelInValue={false}
+                                    multiple={false}
+                                    notFoundContent="Not Found"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onDeselect={[Function]}
+                                    onFocus={[Function]}
+                                    onInputKeyDown={[Function]}
+                                    onSearch={[Function]}
+                                    onSelect={[Function]}
+                                    optionFilterProp="value"
+                                    optionLabelProp="children"
+                                    placeholder=""
+                                    prefixCls="ant-select"
+                                    showAction={
+                                      Array [
+                                        "click",
+                                      ]
+                                    }
+                                    showArrow={true}
+                                    showSearch={false}
+                                    style={
+                                      Object {
+                                        "width": "100%",
+                                      }
+                                    }
+                                    tags={false}
+                                    tokenSeparators={Array []}
+                                    transitionName="slide-up"
+                                    value={0}
+                                  >
+                                    <SelectTrigger
+                                      combobox={false}
+                                      defaultActiveFirstOption={true}
+                                      dropdownMatchSelectWidth={true}
+                                      dropdownMenuStyle={Object {}}
+                                      dropdownStyle={Object {}}
+                                      inputValue=""
+                                      multiple={false}
+                                      onDropdownVisibleChange={[Function]}
+                                      onMenuDeselect={[Function]}
+                                      onMenuSelect={[Function]}
+                                      onPopupFocus={[Function]}
+                                      options={Array []}
+                                      prefixCls="ant-select"
+                                      showAction={
+                                        Array [
+                                          "click",
+                                        ]
+                                      }
+                                      showSearch={false}
+                                      transitionName="slide-up"
+                                      value={
+                                        Array [
+                                          0,
+                                        ]
+                                      }
+                                      visible={false}
+                                    >
+                                      <Trigger
+                                        action={Array []}
+                                        afterPopupVisibleChange={[Function]}
+                                        blurDelay={0.15}
+                                        builtinPlacements={
+                                          Object {
+                                            "bottomLeft": Object {
+                                              "offset": Array [
+                                                0,
+                                                4,
+                                              ],
+                                              "overflow": Object {
+                                                "adjustX": 0,
+                                                "adjustY": 1,
+                                              },
+                                              "points": Array [
+                                                "tl",
+                                                "bl",
+                                              ],
+                                            },
+                                            "topLeft": Object {
+                                              "offset": Array [
+                                                0,
+                                                -4,
+                                              ],
+                                              "overflow": Object {
+                                                "adjustX": 0,
+                                                "adjustY": 1,
+                                              },
+                                              "points": Array [
+                                                "bl",
+                                                "tl",
+                                              ],
+                                            },
+                                          }
+                                        }
+                                        combobox={false}
+                                        defaultActiveFirstOption={true}
+                                        defaultPopupVisible={false}
+                                        destroyPopupOnHide={false}
+                                        dropdownMatchSelectWidth={true}
+                                        dropdownMenuStyle={Object {}}
+                                        dropdownStyle={Object {}}
+                                        focusDelay={0}
+                                        getDocument={[Function]}
+                                        getPopupClassNameFromAlign={[Function]}
+                                        hideAction={
+                                          Array [
+                                            "click",
+                                          ]
+                                        }
+                                        inputValue=""
+                                        mask={false}
+                                        maskClosable={true}
+                                        mouseEnterDelay={0}
+                                        mouseLeaveDelay={0.1}
+                                        multiple={false}
+                                        onDropdownVisibleChange={[Function]}
+                                        onMenuDeselect={[Function]}
+                                        onMenuSelect={[Function]}
+                                        onPopupAlign={[Function]}
+                                        onPopupVisibleChange={[Function]}
+                                        options={Array []}
+                                        popup={
+                                          <DropdownMenu
+                                            backfillValue={undefined}
+                                            defaultActiveFirstOption={true}
+                                            dropdownMenuStyle={Object {}}
+                                            firstActiveValue={undefined}
+                                            inputValue=""
+                                            menuItems={Array []}
+                                            multiple={false}
+                                            onMenuDeselect={[Function]}
+                                            onMenuSelect={[Function]}
+                                            onPopupFocus={[Function]}
+                                            onPopupScroll={undefined}
+                                            prefixCls="ant-select-dropdown"
+                                            value={
+                                              Array [
+                                                0,
+                                              ]
+                                            }
+                                            visible={false}
+                                          />
+                                        }
+                                        popupAlign={Object {}}
+                                        popupClassName="ant-select-dropdown--single"
+                                        popupPlacement="bottomLeft"
+                                        popupStyle={Object {}}
+                                        popupTransitionName="slide-up"
+                                        popupVisible={false}
+                                        prefixCls="ant-select-dropdown"
+                                        showAction={
+                                          Array [
+                                            "click",
+                                          ]
+                                        }
+                                        showSearch={false}
+                                        transitionName="slide-up"
+                                        value={
+                                          Array [
+                                            0,
+                                          ]
+                                        }
+                                        visible={false}
+                                      >
+                                        <div
+                                          className="ant-select ant-select-enabled"
+                                          key="trigger"
+                                          onBlur={[Function]}
+                                          onClick={[Function]}
+                                          onFocus={[Function]}
+                                          onMouseDown={[Function]}
+                                          onTouchStart={[Function]}
+                                          style={
+                                            Object {
+                                              "width": "100%",
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            aria-autocomplete="list"
+                                            aria-expanded={false}
+                                            aria-haspopup="true"
+                                            className="ant-select-selection
+            ant-select-selection--single"
+                                            key="selection"
+                                            onKeyDown={[Function]}
+                                            role="combobox"
+                                            tabIndex={0}
+                                          >
+                                            <div
+                                              className="ant-select-selection__rendered"
+                                            >
+                                              <div
+                                                className="ant-select-selection-selected-value"
+                                                key="value"
+                                                style={
+                                                  Object {
+                                                    "display": "block",
+                                                    "opacity": 1,
+                                                  }
+                                                }
+                                                title={null}
+                                              >
+                                                # Progress 
+                                                1
+                                              </div>
+                                            </div>
+                                            <span
+                                              className="ant-select-arrow"
+                                              key="arrow"
+                                              onClick={[Function]}
+                                              style={
+                                                Object {
+                                                  "WebkitUserSelect": "none",
+                                                  "userSelect": "none",
+                                                }
+                                              }
+                                              unselectable="on"
+                                            >
+                                              <b />
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </Trigger>
+                                    </SelectTrigger>
+                                  </Select>
+                                </LocaleReceiver>
+                              </Select>
+                            </div>
+                          </Col>
+                          <Col
+                            className="buttons"
+                            key=".1"
+                            sm={16}
+                            style={
+                              Object {
+                                "paddingLeft": 12,
+                                "paddingRight": 12,
+                              }
+                            }
+                            xs={24}
+                          >
+                            <div
+                              className="buttons ant-col-xs-24 ant-col-sm-16"
+                              style={
+                                Object {
+                                  "paddingLeft": 12,
+                                  "paddingRight": 12,
+                                }
+                              }
+                            >
+                              <Button
+                                ghost={false}
+                                key="0"
+                                loading={false}
+                                onClick={[Function]}
+                                prefixCls="ant-btn"
+                              >
+                                <button
+                                  className="ant-btn"
+                                  onClick={[Function]}
+                                  type="button"
+                                >
+                                  <span
+                                    key=".0"
+                                  >
+                                    +10
+                                  </span>
+                                </button>
+                              </Button>
+                              <Button
+                                ghost={false}
+                                key="1"
+                                loading={false}
+                                onClick={[Function]}
+                                prefixCls="ant-btn"
+                              >
+                                <button
+                                  className="ant-btn"
+                                  onClick={[Function]}
+                                  type="button"
+                                >
+                                  -20
+                                </button>
+                              </Button>
+                              <Button
+                                ghost={false}
+                                key="2"
+                                loading={false}
+                                onClick={[Function]}
+                                prefixCls="ant-btn"
+                              >
+                                <button
+                                  className="ant-btn"
+                                  onClick={[Function]}
+                                  type="button"
+                                >
+                                  <span
+                                    key=".0"
+                                  >
+                                    +15
+                                  </span>
+                                </button>
+                              </Button>
+                              <Button
+                                ghost={false}
+                                key="3"
+                                loading={false}
+                                onClick={[Function]}
+                                prefixCls="ant-btn"
+                              >
+                                <button
+                                  className="ant-btn"
+                                  onClick={[Function]}
+                                  type="button"
+                                >
+                                  -40
+                                </button>
+                              </Button>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </Basic>
+          </Adapter>
+          <Adapter>
+            <Basic
+              prefixCls="ant-layout-footer"
+            >
+              <div
+                className="ant-layout-footer"
+              >
+                <p>
+                  Powered by 
+                  <Link
+                    href="https://github.com/facebook/create-react-app"
+                  >
+                    <a
+                      href="https://github.com/facebook/create-react-app"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      CRA
+                    </a>
+                  </Link>
+                  , 
+                  <Link
+                    href="https://ant.design/"
+                  >
+                    <a
+                      href="https://ant.design/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Antd
+                    </a>
+                  </Link>
+                   and more.
+                </p>
+                <p>
+                  Made with 
+                  <Icon
+                    className="heart"
+                    type="heart"
+                  >
+                    <i
+                      className="anticon anticon-heart heart"
+                    />
+                  </Icon>
+                   by 
+                  <Link
+                    href="https://github.com/mdluo"
+                  >
+                    <a
+                      href="https://github.com/mdluo"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      mdluo
+                    </a>
+                  </Link>
+                  .
+                </p>
+              </div>
+            </Basic>
+          </Adapter>
+        </div>
+      </BasicLayout>
+    </Adapter>
+  </Page>
+</App>
+`;
