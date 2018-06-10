@@ -8,10 +8,9 @@ cache:
 script:
   - yarn test
   - yarn build
-before_deploy: npm install now --no-save
 deploy:
   - provider: script
-    script: now build --token $NOW_TOKEN
+    script: now build --public --token $NOW_TOKEN
     skip_cleanup: true
     on:
       all_branches: true

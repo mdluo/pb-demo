@@ -6609,6 +6609,10 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
+now@^11.2.2:
+  version "11.2.2"
+  resolved "https://registry.npmjs.org/now/-/now-11.2.2.tgz#c513fbc6d39cdde72a225d5607e61c211a79575a"
+
 npm-bundled@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npmjs.org/npm-bundled/-/npm-bundled-1.0.3.tgz#7e71703d973af3370a9591bafe3a63aca0be2308"
