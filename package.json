@@ -42,9 +42,6 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
-  "now": {
-    "alias": "pb-demo"
-  },
   "browserslist": {
     "development": [
       "last 2 chrome versions",
