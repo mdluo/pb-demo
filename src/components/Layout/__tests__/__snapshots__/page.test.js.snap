@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bar renders correctly 1`] = `
+<div
+  class="layout ant-layout"
+>
+  <div
+    class="ant-layout-content"
+  >
+    <div
+      class="ant-card card"
+    >
+      <div
+        class="ant-card-head"
+      >
+        <div
+          class="ant-card-head-wrapper"
+        >
+          <div
+            class="ant-card-head-title"
+          >
+            Progress Bar Demo
+          </div>
+          <div
+            class="ant-card-extra"
+          >
+            <a
+              href="https://github.com/mdluo/pb"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i
+                class="anticon anticon-link"
+              />
+               GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card-body"
+      >
+        Content
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-layout-footer"
+  >
+    <p>
+      Powered by 
+      <a
+        href="https://github.com/facebook/create-react-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        CRA
+      </a>
+      , 
+      <a
+        href="https://ant.design/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Antd
+      </a>
+       and more.
+    </p>
+    <p>
+      Made with 
+      <i
+        class="anticon anticon-heart heart"
+      />
+       by 
+      <a
+        href="https://github.com/mdluo"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        mdluo
+      </a>
+      .
+    </p>
+  </div>
+</div>
+`;
