@@ -8,9 +8,10 @@ cache:
 script:
   - yarn test
   - yarn build
+before_deploy: mv build pb-demo
 deploy:
   - provider: script
-    script: mv build pb-demo && now alias --token=$NOW_TOKEN $(now pb-demo --static --no-clipboard --token=$NOW_TOKEN --public) pb-demo
+    script: now alias --token=$NOW_TOKEN $(now ./pb-demo --static --no-clipboard --token=$NOW_TOKEN --public) pb-demo
     skip_cleanup: true
     on:
       master: true
