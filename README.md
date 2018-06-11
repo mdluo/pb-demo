@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/mdluo/pb-demo.svg?branch=master)](https://travis-ci.org/mdluo/pb-demo)
 [![Dependencies](https://img.shields.io/david/mdluo/pb-demo.svg)](https://david-dm.org/mdluo/pb-demo)
 [![DevDependencies](https://img.shields.io/david/dev/mdluo/pb-demo.svg)](https://david-dm.org/mdluo/pb-demo#info=devDependencies&view=list)
+![license](https://img.shields.io/github/license/mdluo/pb-demo.svg)
+
 
 ### Online demo
 
